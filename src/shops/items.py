@@ -6,7 +6,9 @@
 import scrapy
 
 
-class ShopsItem(scrapy.Item):
+class ProductItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    name = scrapy.Field()
+    price = scrapy.Field()
+    code = scrapy.Field()
