@@ -1,6 +1,5 @@
 from scrapy import Spider
 from scrapy.http import XmlRpcRequest
-
 from shops.items import ProductItem
 
 
